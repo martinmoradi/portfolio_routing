@@ -26,7 +26,7 @@ function App() {
             <Route path="/works">
               <Works />
             </Route>{" "}
-            <Route path="/contact" exact>
+            <Route path="/contact">
               <Contact />
             </Route>
           </Switch>
