@@ -20,7 +20,8 @@ const Work = () => {
   return (
     <div>
       {currentWork && <h2>Titre : {currentWork.slug}</h2>}
-      {currentWork.titles.length &&
+      { currentWork &&
+        currentWork.titles.length &&
         currentWork.titles.map((title) => <h4>{title}</h4>)}
     </div>
   );
